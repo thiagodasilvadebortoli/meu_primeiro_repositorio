@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+var nomes =[
+    "Cris",
+    "Maicon",
+    "Daniel",
+    "Thiago",
+    "Gabriel",
+    "Fernando",
+    "Milena",
+]
+for (let index = 0; index < nomes.length; index++) {
+    console.log(nomes[index]);    
+}
+nomes.forEach(element => {
+    console.log(element)
+});
+
+var i = 0;
+ while (i < nomes.length) {
+    console.log(nomes[i]);
+    i++;
+
+ }
+   
+ //ativ1
+ var y = 0;
+ do {
+    console.log(nomes[y]);
+    y++;
+  } while (y < nomes.length);
+
+  //ativ2
+  function mostrar_nomes(){
+  for (let o = 0; o < nomes.length; o++) {
+    console.log(nomes[o]);
+    
+  }
+  }
+mostrar_nomes();
+    
+//ativ3
+
+function batatinha(nomes) {
+    var u = 0;
+    while (u <nomes.length) {
+        console.log(nomes[u]);
+        u++
+        
+    }
+}
+batatinha(nomes);
+var numeros = [1, 2]
+batatinha(numeros);
+    
+
+//criar um afunção que faça
+// a amostragem de qualquer menssagem passada pelo
+//prompt()
+
+    var mensagem = prompt("digite qualquer coisa:")
+     function  amostragem(g) {
+        alert(g);
+     }
+    amostragem(mensagem);
+    
+
+  
+ 
+    </script>
+</body>
+</html>

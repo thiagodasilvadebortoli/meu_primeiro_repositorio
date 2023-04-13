@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ //ati1
+ 
+ var valor = prompt("digite um numero:");
+ function vereficarValor(valor) {
+    var menssagem = "";
+    if(valor >0){
+     menssagem = "valor positivo";
+    } else if (valor<0) {
+    menssagem = "valor negativo";
+    } else  {
+    menssagem = "igual a zero";
+    }
+    alert(menssagem);
+}
+    vereficarValor(valor);
+
+//ati2
+
+ function tabuada() {
+    var numero = prompt ("digite um numero:");
+     for (var i = 0; i <=10; i++) {
+         var resultado = numero * i;
+      console.log(numero + "x" + i + "=" + resultado);
+      } 
+    }
+    tabuada();
+    
+ //ativ3
+ function calcular() {
+    var numero = prompt("digite o numero:");
+    var calcular = 1;
+    for(var i =numero; i >=1; i--)  {
+    calcular *=1;
+     }
+     return calcular;
+ }
+ var resultado = calcular();
+ alert("o calcular é" +resultado);
+calcular();
+
+
+//ativ4
+
+ function operação() {
+    var num1 = prompt ("digite qualquer coisa");
+    var num2 = prompt ("digite qualquer coisa");
+    var operação = prompt ("escolhe a operação: (+,-,*,/):");
+    var resultado = 0;
+    
+    let numinteiro = parseInt(num1)
+    let numinteiro2 = parseInt(num2)
+
+    switch (operação) {
+    case  "+":
+        resultado = numinteiro+numinteiro2;
+        break;
+    case  "-":
+        resultado =  numinteiro-numinteiro2;
+        break;
+    case  "*":
+        resultado =  numinteiro*numinteiro2;
+        break;
+        case  "/":
+        resultado =  numinteiro/numinteiro2;
+        break;
+    default:
+        resultado = NaN;
+        break;
+    }
+    return resultado; 
+ }
+
+ var resultado = operação();
+ alert ("o resultado da operação é" + resultado);
+ 
+
+//ativ5   
+
+function ordem_crescente(a,b) {
+var ordem_crescente = prompt (a,b);
+ if (a<=b){
+    pirnt(a,b);
+    }else if  (b,a){
+   a=4
+   b=5
+ }
+}
+ ordem_crescente();
+
+ 
+//ati6
+
+function vereficar_Valores(a,b) {
+var vereficar_Valores = prompt (a,b);
+ if (a >b);
+ return "a maior que b"
+ elif (a <b);
+ return "a menor que b"
+
+    return " aigual a b"
+
+    a=4
+    b=5
+    print(vereficar_Valores(a,b)) 
+    "a menor que b"
+
+    a=5
+    b=4
+    print(vereficar_Valores(a,b)) 
+    "a maior que b"
+
+    a=4
+    b=4
+    print(vereficar_Valores(a,b)) 
+    "a igual a b"
+}
+vereficar_Valores();
+
+//ativ7
+ 
+
+ 
+    </script>
+</body>
+</html>
